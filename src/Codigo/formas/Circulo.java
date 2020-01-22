@@ -28,7 +28,17 @@ public class Circulo extends Ellipse2D.Double {
         color = _color;
         relleno = _relleno;
     }
-    public void Dibujate (Graphics2D g2, int _diametro, Color _color, boolean _relleno){
-        
+
+    public void Dibujate(Graphics2D g2, int _posX) {
+        int diametro = Math.abs((int) x - _posX);
+        width = diametro;
+        height = diametro;
+        g2.setColor(color);
+        if (relleno) {
+            g2.fill(this);
+        }
+        else {
+            g2.draw(this);
+        }
     }
 }
