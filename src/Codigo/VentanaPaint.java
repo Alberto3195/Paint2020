@@ -77,6 +77,11 @@ public class VentanaPaint extends javax.swing.JFrame {
                 jPanel1MouseDragged(evt);
             }
         });
+        jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel1MousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -88,12 +93,6 @@ public class VentanaPaint extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 365, Short.MAX_VALUE)
         );
-
-        herramientas1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                herramientas1MousePressed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -126,21 +125,30 @@ public class VentanaPaint extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseDragged
-        switch (herramientaSelecionada) {
+        switch (herramientas1.formaElegida) {
             case 0:
                 bufferGraphics.setColor(panelColores1.colorSeleccionado);
                 bufferGraphics.fillOval(evt.getX(), evt.getY(), 4, 4);
-                repaint(0, 0, 1, 1);
+                break;
+            case 1:
+                miCirculo.Dibujate(bufferGraphics, evt.getX());
+                break;
+        }
+        repaint(0, 0, 1, 1);
+    }//GEN-LAST:event_jPanel1MouseDragged
+
+    private void jPanel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MousePressed
+        switch (herramientas1.formaElegida) {
+            case 0:
                 break;
             case 1:
                 miCirculo = new Circulo(evt.getX(), evt.getY(), 1, panelColores1.colorSeleccionado, true);
-
+                miCirculo.Dibujate(bufferGraphics, evt.getX());
+                break;
         }
-    }//GEN-LAST:event_jPanel1MouseDragged
 
-    private void herramientas1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_herramientas1MousePressed
-        herramientaSelecionada = 1; //La herramienta esta seleccionada que es el circulo
-    }//GEN-LAST:event_herramientas1MousePressed
+
+    }//GEN-LAST:event_jPanel1MousePressed
 
     /**
      * @param args the command line arguments

@@ -56,6 +56,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Events>
         <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MousePressed"/>
       </Events>
 
       <Layout>
@@ -74,9 +75,6 @@
     <Component class="Codigo.PanelColores" name="panelColores1">
     </Component>
     <Component class="Codigo.Herramientas" name="herramientas1">
-      <Events>
-        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="herramientas1MousePressed"/>
-      </Events>
     </Component>
   </SubComponents>
 </Form>
