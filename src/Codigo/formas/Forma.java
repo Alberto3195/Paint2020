@@ -47,4 +47,8 @@ public class Forma extends Polygon {
             ypoints[i]=(int) (y + _radio*Math.sin(2*Math.PI*i + _giro/40)/npoints);
         }
     }
+
+    public void dibujate(Graphics2D bufferGraphics, int x, int y) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
