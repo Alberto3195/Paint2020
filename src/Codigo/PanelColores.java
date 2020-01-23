@@ -475,127 +475,158 @@ public class PanelColores extends javax.swing.JPanel {
     }//GEN-LAST:event_jLabel7MousePressed
 
     private void jLabel11MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel11MousePressed
 
     private void jLabel12MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel12MousePressed
 
     private void jLabel15MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel15MousePressed
 
     private void jLabel17MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel17MousePressed
 
     private void jLabel18MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel18MousePressed
 
     private void jLabel19MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel19MousePressed
 
     private void jLabel20MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel20MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel20MousePressed
 
     private void jLabel21MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel21MousePressed
 
     private void jLabel22MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel22MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel22MousePressed
 
     private void jLabel23MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel23MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel23MousePressed
 
     private void jLabel24MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel24MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel24MousePressed
 
     private void jLabel25MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel25MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel25MousePressed
 
     private void jLabel26MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel26MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel26MousePressed
 
     private void jLabel27MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel27MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel27MousePressed
 
     private void jLabel28MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel28MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel28MousePressed
 
     private void jLabel29MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel29MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel29MousePressed
 
     private void jLabel30MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel30MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel30MousePressed
 
     private void jLabel31MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel31MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel31MousePressed
 
     private void jLabel32MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel32MousePressed
 
     private void jLabel33MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel33MousePressed
 
     private void jLabel34MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel34MousePressed
 
     private void jLabel35MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel35MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel35MousePressed
 
     private void jLabel36MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel36MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel36MousePressed
 
     private void jLabel37MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel37MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel37MousePressed
 
     private void jLabel38MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel38MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel38MousePressed
 
     private void jLabel39MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel39MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel39MousePressed
 
     private void jLabel40MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel40MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel40MousePressed
 
     private void jLabel41MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel41MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel41MousePressed
 
     private void jLabel42MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel42MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel42MousePressed
 
     private void jLabel43MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel43MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel43MousePressed
 
     private void jLabel44MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel44MousePressed
-        // TODO add your handling code here:
+        JLabel s = (JLabel) evt.getSource();
+        colorSeleccionado = s.getBackground();
     }//GEN-LAST:event_jLabel44MousePressed
 
 
