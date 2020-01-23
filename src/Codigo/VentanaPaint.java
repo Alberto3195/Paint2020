@@ -99,12 +99,6 @@ public class VentanaPaint extends javax.swing.JFrame {
             .addGap(0, 365, Short.MAX_VALUE)
         );
 
-        herramientas1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                herramientas1MousePressed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -141,7 +135,7 @@ public class VentanaPaint extends javax.swing.JFrame {
                 bufferGraphics.fillOval(evt.getX(), evt.getY(), 4, 4);
                 break;
             case 1:
-                miCirculo.Dibujate(bufferGraphics, evt.getX());
+                miCirculo.dibujate(bufferGraphics, evt.getX());
                 break;
             case 5:
                 miForma.dibujate(bufferGraphics, evt.getX(), evt.getY());
@@ -159,7 +153,7 @@ public class VentanaPaint extends javax.swing.JFrame {
                 break;
             case 1:
                 miCirculo = new Circulo(evt.getX(), evt.getY(), 1, panelColores1.colorSeleccionado, true);
-                miCirculo.Dibujate(bufferGraphics, evt.getX());
+                miCirculo.dibujate(bufferGraphics, evt.getX());
                 break;
             case 5:
                 miForma = new Pentagono(evt.getX(), evt.getY(), 5, panelColores1.colorSeleccionado, false);
@@ -173,10 +167,6 @@ public class VentanaPaint extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_jPanel1MousePressed
-
-    private void herramientas1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_herramientas1MousePressed
-        herramientas1.formaElegida = 1; //La herramienta esta seleccionada que es el circulo
-    }//GEN-LAST:event_herramientas1MousePressed
 
     private void jPanel1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseReleased
         miForma.dibujate(bufferGraphics2, evt.getX(), evt.getY());
