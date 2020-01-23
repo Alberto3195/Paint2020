@@ -65,7 +65,7 @@ public class PanelColores extends javax.swing.JPanel {
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
 
-        jLabel7.setBackground(java.awt.Color.yellow);
+        jLabel7.setBackground(java.awt.Color.white);
         jLabel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel7.setOpaque(true);
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -74,7 +74,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel11.setBackground(java.awt.Color.yellow);
+        jLabel11.setBackground(java.awt.Color.lightGray);
         jLabel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel11.setOpaque(true);
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -83,7 +83,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel12.setBackground(java.awt.Color.yellow);
+        jLabel12.setBackground(java.awt.Color.darkGray);
         jLabel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel12.setOpaque(true);
         jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -92,7 +92,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel15.setBackground(java.awt.Color.yellow);
+        jLabel15.setBackground(java.awt.Color.gray);
         jLabel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel15.setOpaque(true);
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -110,7 +110,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel18.setBackground(java.awt.Color.yellow);
+        jLabel18.setBackground(java.awt.Color.pink);
         jLabel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel18.setOpaque(true);
         jLabel18.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -119,7 +119,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel19.setBackground(java.awt.Color.yellow);
+        jLabel19.setBackground(java.awt.Color.orange);
         jLabel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel19.setOpaque(true);
         jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -128,7 +128,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel20.setBackground(java.awt.Color.yellow);
+        jLabel20.setBackground(java.awt.Color.black);
         jLabel20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel20.setOpaque(true);
         jLabel20.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -182,7 +182,7 @@ public class PanelColores extends javax.swing.JPanel {
             }
         });
 
-        jLabel26.setBackground(java.awt.Color.yellow);
+        jLabel26.setBackground(java.awt.Color.red);
         jLabel26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel26.setOpaque(true);
         jLabel26.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -465,7 +465,7 @@ public class PanelColores extends javax.swing.JPanel {
                     .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(79, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

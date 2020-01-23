@@ -39,8 +39,12 @@ public class Forma extends Polygon {
             g2.draw(this);
         }
     }
+//Este metodo recalcula la posicion de los vertices en un poligono regular
 
     public void calculaVertices(int _radio, double _giro) {
-
+        for (int i = 0; i < npoints; i++) {
+            xpoints[i]=(int) (x + _radio*Math.cos(2*Math.PI*i + _giro/40)/npoints);
+            ypoints[i]=(int) (y + _radio*Math.sin(2*Math.PI*i + _giro/40)/npoints);
+        }
     }
 }

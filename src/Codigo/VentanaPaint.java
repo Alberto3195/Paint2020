@@ -154,7 +154,7 @@ public class VentanaPaint extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MousePressed
 
     private void herramientas1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_herramientas1MousePressed
-        herramientaSelecionada = 1; //La herramienta esta seleccionada que es el circulo
+        herramientas1.formaElegida = 1; //La herramienta esta seleccionada que es el circulo
     }//GEN-LAST:event_herramientas1MousePressed
 
     /**
