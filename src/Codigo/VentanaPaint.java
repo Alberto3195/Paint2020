@@ -20,7 +20,6 @@ public class VentanaPaint extends javax.swing.JFrame {
     //un Buffer acelera algo, en este caso acelera la lectura del disco a la memoria
     BufferedImage buffer = null;
     Graphics2D bufferGraphics, jpanelGraphics = null;
-    int herramientaSelecionada = 0;
     Circulo miCirculo = null;
 
     /**
