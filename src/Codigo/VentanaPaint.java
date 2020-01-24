@@ -45,6 +45,7 @@ public class VentanaPaint extends javax.swing.JFrame {
         //inicializo el buffer para que se pinte de blanco entero
         bufferGraphics.setColor(Color.WHITE);
         bufferGraphics.fillRect(0, 0, jPanel1.getWidth(), jPanel1.getHeight());
+
         bufferGraphics2.setColor(Color.WHITE);
         bufferGraphics2.fillRect(0, 0, jPanel1.getWidth(), jPanel1.getHeight());
         //enlazamos el jPanel1 con el jPanelGraphics
@@ -131,8 +132,8 @@ public class VentanaPaint extends javax.swing.JFrame {
         bufferGraphics.drawImage(buffer2, 0, 0, null);
         switch (herramientas1.formaElegida) {
             case 0:
-                bufferGraphics.setColor(panelColores1.colorSeleccionado);
-                bufferGraphics.fillOval(evt.getX(), evt.getY(), 4, 4);
+                bufferGraphics2.setColor(panelColores1.colorSeleccionado);
+                bufferGraphics2.fillOval(evt.getX(), evt.getY(), 4, 4);
                 break;
             case 1:
                 miCirculo.dibujate(bufferGraphics, evt.getX());
@@ -143,6 +144,7 @@ public class VentanaPaint extends javax.swing.JFrame {
             case 256:
                 miForma.dibujate(bufferGraphics, evt.getX(), evt.getY());
                 break;
+
         }
         repaint(0, 0, 1, 1);
     }//GEN-LAST:event_jPanel1MouseDragged
@@ -170,6 +172,10 @@ public class VentanaPaint extends javax.swing.JFrame {
 
     private void jPanel1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseReleased
         miForma.dibujate(bufferGraphics2, evt.getX(), evt.getY());
+        //si es el círculo lo dibuja sobre el buffer2
+        if (herramientas1.formaElegida == 1) {
+            miCirculo.dibujate(bufferGraphics2, evt.getX());
+        }
     }//GEN-LAST:event_jPanel1MouseReleased
 
     /**
